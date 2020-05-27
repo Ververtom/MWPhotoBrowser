@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     :git => 'https://github.com/crazytom26/MWPhotoBrowser.git',
-    :tag => '2.1.2'
+    :tag => '2.1.3'
   }
   s.platform = :ios, '7.0'
   s.source_files = 'Pod/Classes/**/*'
@@ -43,6 +43,6 @@ Pod::Spec.new do |s|
   # SDWebImage
   # 3.7.2 contains bugs downloading local files
   # https://github.com/rs/SDWebImage/issues/1109
-  s.dependency 'SDWebImage', '~> 3.7', '!= 3.7.2'
+  s.dependency 'SDWebImage', '5.0.0'
 
 end
