@@ -11,7 +11,7 @@
 
 @interface MWCaptionView : UIToolbar
 
-// Init
+// Init 123
 - (id)initWithPhoto:(id<MWPhoto>)photo;
 
 // To create your own custom caption view, subclass this view
